@@ -1,0 +1,10 @@
+linters:
+  enable:
+    - gocyclo
+    - errcheck
+    - govet
+    - megacheck
+    - revive
+linters-settings:
+  gocyclo:
+    min-complexity: 10
